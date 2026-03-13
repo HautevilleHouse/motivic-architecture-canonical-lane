@@ -1,0 +1,21 @@
+title: "Motivic Architecture via Realization-Filtration Persistence"
+message: "If you use this workspace, cite the manuscript and theorem notes."
+type: software
+authors:
+  - name: "HautevilleHouse"
+date-released: 2026-03-05
+repository-code: "https://github.com/HautevilleHouse/motivic-architecture-canonical-lane"
+url: "https://github.com/HautevilleHouse/motivic-architecture-canonical-lane"
+license: None
+keywords:
+  - arithmetic-geometry
+  - motives
+  - motivic-cohomology
+  - reproducibility
+  - canonical-lane
+preferred-citation:
+  type: article
+  title: "Motivic Architecture via Realization-Filtration Persistence"
+  authors:
+    - name: "HautevilleHouse"
+  date: 2026-03-05
