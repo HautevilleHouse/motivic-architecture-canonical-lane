@@ -1,13 +1,9 @@
 {
-  "schema_version": "2026-03-05",
-  "generated_utc": "2026-03-13T03:58:51Z",
-  "lane": "manifold_constrained",
   "baseline_certificate_path": "repro/certificate_baseline.json",
-  "runtime_certificate_path": "repro/certificate_runtime.json",
   "files": [
     {
       "path": "CITATION.cff",
-      "sha256": "e64c52b7435c1943d3ca9a2334ffbe2cb794868f83d4026f8c1902ad35c79182"
+      "sha256": "a521591240024ff63f91cf14bcef1e557e5eff2d927c32c75ed5e5ff29f71e0c"
     },
     {
       "path": "README.md",
@@ -83,15 +79,15 @@
     },
     {
       "path": "repro/run_repro.sh",
-      "sha256": "81a66d6f5c5afb0c6a470531198c4bf743e2bf4f8d93f15abca8a66944d8ff4e"
+      "sha256": "19e2a1876a31878de47010639ef826f0f1f01b34c447d7910068d2d50929b891"
     },
     {
       "path": "scripts/extract_constants.py",
-      "sha256": "61775512903af1abf2a430f74f06797352ca655833bd69fe66b2d89b8c261b6e"
+      "sha256": "730d57dae3fac057e19630db34233183cae269568d43118c943387970081896d"
     },
     {
       "path": "scripts/promote_constants.py",
-      "sha256": "c13fe0f68b0737a319c9feff0e196108b9a49d8acc5ad817f8ae62597c8bc13c"
+      "sha256": "b65eb7a60552c668f04d6331a5256fe4e662ae5e83e769d42f6a141819769356"
     },
     {
       "path": "scripts/release_gate.py",
@@ -99,7 +95,7 @@
     },
     {
       "path": "scripts/update_manifest.py",
-      "sha256": "6cee83954c38d792f86564334a5e93750a9842afe569fb4685a3f47def392352"
+      "sha256": "45ae03f10349daebab98b6eb9a0836b7e2d15a48ca5504277c80ec7d4c633d12"
     },
     {
       "path": "scripts/mot_closure_guard.py",
@@ -109,5 +105,9 @@
       "path": "scripts/README.md",
       "sha256": "d60a004e178905f2bb06a4421748636041d16f01ba580d64aa84481aff424264"
     }
-  ]
+  ],
+  "generated_utc": "2026-05-10T05:21:38Z",
+  "lane": "manifold_constrained",
+  "runtime_certificate_path": "repro/certificate_runtime.json",
+  "schema_version": "2026-03-05"
 }

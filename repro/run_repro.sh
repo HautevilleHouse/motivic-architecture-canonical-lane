@@ -12,7 +12,6 @@ mkdir -p .codex_tmp/motivic_architecture
 cp artifacts/stitch_constants.json .codex_tmp/motivic_architecture/stitch_constants.json
 cp artifacts/constants_registry.json .codex_tmp/motivic_architecture/constants_registry.json
 python3 scripts/mot_closure_guard.py --strict-coh-zero --registry artifacts/constants_registry.json --stitch artifacts/stitch_constants.json --out repro/certificate_runtime.json --history repro/drift_guard_runs.jsonl --pretty
-cp repro/certificate_runtime.json repro/certificate_baseline.json
 python3 scripts/update_manifest.py --manifest repro/repro_manifest.json
 python3 scripts/release_gate.py --mode fully_extracted --manifest repro/repro_manifest.json --registry artifacts/constants_registry.json --inputs artifacts/constants_extraction_inputs.json --pretty
 echo
